@@ -1,0 +1,229 @@
+* {
+  padding: 0;
+  margin: 0;   
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #795d99;
+    color: #FFF;
+    padding: 5px;
+    text-align: center;
+    border-top: 2px solid #0c035e;
+    border-bottom: 2px solid #0c035e;
+}
+
+.topo {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .icone {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 40px;
+  }
+
+  .menu {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    padding-right: 20px;
+  }
+
+  a {
+    color: #EEE;
+    margin: 0px 0px;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  a:hover {
+    background-color: #0c035e;
+  }
+
+  #btn1 {
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #0c035e;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+#btn1:hover {
+    background-color: #795d99;
+}
+
+/* Grid de Produtos */
+.container {
+    background-color: #EEE;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 10px;
+}
+
+.product-image {
+    height: 330px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+#Z-1 {
+    background-image: url('../img/Z-1.png');
+}
+
+#Z-2 {
+    background-image: url('../img/Z-2.png');
+}
+
+#Z-3 {
+    background-image: url('../img/Z-3.png');
+}
+
+#Z-4 {
+    background-image: url('../img/Z-4.png');
+}
+
+#Z-5 {
+    background-image: url('../img/Z-5.png');
+}
+
+#Z-6 {
+    background-image: url('../img/Z-6.png');
+}
+
+#Z-7 {
+    background-image: url('../img/Z-7.png');
+}
+
+#Z-8 {
+    background-image: url('../img/Z-8.png');
+}
+
+#Z-9 {
+    background-image: url('../img/Z-9.png');
+}
+
+#Z-10 {
+    background-image: url('../img/1-PLAYSTATION.png');
+}
+
+#Z-11 {
+    background-image: url('../img/2-XBOX.png');
+}
+
+#Z-12 {
+    background-image: url('../img/3-NINTENDO.png');
+}
+
+h2 {
+    width: 100%;
+    background-color: #795d99;
+    color: #FFF;
+    text-align: center;
+    border-top: 2px solid #0c035e;
+    border-bottom: 2px solid #0c035e;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #795d99;
+    border-left: 5px solid #0c035e;
+    padding-left: 7px;
+    font-size: 16px;
+}
+
+h4 {
+    margin: 10px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #795d99;
+    color: #FFF;
+    padding: 15px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.btn:hover {
+    background-color: #0c035e;
+}
+
+/* Footer */
+footer {
+    background-color: #795d99;
+    color: #FFF;
+    border-top: 3px solid #0c035e;
+    text-align: center;
+    padding: 0px;
+}
+
+#icone-footer {
+    padding-top: 20px;
+}
+
+.item-footer {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.paragrafooter {
+    padding: 5px;
+    text-indent: 20px;
+}
+
+/* Código para Link Visitado (em formulação)
+.linkfooter:visited {
+    color: violet;
+}
+*/
+
+#copyright {
+    width: 90%;
+    text-align: center;
+    align-items: center;
+}
