@@ -5,7 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE-edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Loja Game Mania</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
         <link rel="stylesheet" href="css/styles.css">
+
     </head>
     <body>
       <!--Cabeçalho-->
@@ -18,8 +23,37 @@
           <a ID="btn1" href="login.html">LOGIN</a>
         </nav>
       </header>
+      
       <!--Grid de Produtos-->
+    
       <main class="container">
+        
+        <section id="section-banners">
+
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/banner1.PNG" class="d-block w-100" alt="Compre Conosco">
+              </div>
+              <div class="carousel-item">
+                <img src="img/banner2.PNG" class="d-block w-100" alt="Promoções">
+              </div>
+              <div class="carousel-item">
+                <img src="img/banner3.PNG" class="d-block w-100" alt="Novidades">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        </section>
+
         <section class="products-container">
             <div class="card">
                 <div class="product-image" id="Z-1"></div>
@@ -112,7 +146,7 @@
       </main>
       <!--Rodapé-->
       <footer>
-        <a href="#"><img id="icone-footer" src="img/icone.png"></a>
+        <a href="#"><img id="icone-footer" src="img/icone.png" alt="logo em forma de joystick"></a>
         <section class="item-footer">
           <div>
             <p class="paragrafooter"><h4>Expediente:</h4></p>
@@ -133,6 +167,10 @@
           </div>
         </section>
        </footer>
-       <p><span class="bold"><h4 id="copyright">&copy; CopyRight 2023 - Game Mania</h4></span> </p>
+       <p><span class="bold"><h4 id="copyright">&copy; CopyRight 2023 - Game Mania - by Elan Deol</h4></span> </p>
+       
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+       </script>
+
     </body>
 </html>

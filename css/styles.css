@@ -68,8 +68,15 @@ header {
 .container {
     background-color: #EEE;
     min-height: 60vh;
-    padding: 50px;
+    padding: 30px;
 }
+
+/*Banner*/
+#section-banners img {
+    height: 480px;
+    margin-bottom: 20px;
+}
+
 
 .products-container {
     max-width: 1200px;
